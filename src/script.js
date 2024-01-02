@@ -1,8 +1,3 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const exportBtn = document.getElementById("exportBtn");
-  exportBtn.addEventListener("click", exportSpreadsheet);
-});
-
 function generateSpreadsheet() {
   const rows = document.getElementById("rows").value;
   const columns = document.getElementById("columns").value;
