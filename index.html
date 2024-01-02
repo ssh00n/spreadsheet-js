@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SpreadSheet</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="input-box">
+      <label for="rows">Rows:</label>
+      <input type="number" id="rows" value="10" />
+      <label for="columns">Columns:</label>
+      <input type="number" id="columns" value="10" />
+      <button onclick="generateSpreadsheet()">Create Spreadsheet</button>
+      <label for="fileName">File Name:</label>
+      <input type="text" id="fileName" placeholder="Enter file name" />
+      <button id="exportBtn">Export Spreadsheet</button>
+    </div>
+
+    <table id="spreadsheet"></table>
+    <script src="src/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.2/xlsx.full.min.js"></script>
+  </body>
+</html>

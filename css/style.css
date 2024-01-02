@@ -1,0 +1,60 @@
+/* style.css */
+table {
+  border-collapse: collapse;
+  margin-top: 1rem;
+  width: 100%;
+  table-layout: fixed;
+  overflow-x: auto;
+}
+
+td,
+th {
+  width: 5rem;
+  max-width: 5rem;
+  overflow: hidden;
+  white-space: nowrap;
+  border: 1px solid black;
+  height: 22px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+td {
+  cursor: pointer;
+}
+
+.highlight {
+  background-color: skyblue;
+}
+
+#input-box {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+#input-box label,
+#input-box input,
+button {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
